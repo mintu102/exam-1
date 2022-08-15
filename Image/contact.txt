@@ -1,0 +1,246 @@
+   <section class="contact-section">
+        <div class="container">
+            <div class="contact-title">
+                <h2 class="bubble">
+                    HIRE ME
+                </h2>
+
+                <h3 class="title">
+                    I am available for your next awesome <br>
+                    project, Hire me!
+
+                </h3>
+            </div>
+
+            <div class="form-row">
+                <div class="form-top">
+                    <div class="contact-box">
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <ul>
+                            <li><a href="tel:+1 123 456 7890	">+1 123 456 7890</a></li>
+                            <li><a href="tel:+1 987 654 3213	">+1 987 654 3213</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-box">
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <ul>
+                            <li>Location, 125 Business </li>
+                            <li>Evenue, Huston, USA </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-box">
+                        <span><i class="fas fa-envelope"></i></span>
+                        <ul>
+                            <li><a href="mailto:support@gmail.com">support@gmail.com</a></li>
+                            <li><a href="mailto:info@gmail.com">info@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="form-bottom">
+                    <form action="">
+                        <div class="form-wrapper">
+
+                            <div class="form-left">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input id="" type="tel" placeholder="Phone">
+                            </div>
+
+                            <div class="form-right">
+                               
+                                
+                             <textarea name="" id="" cols="30" rows="7" placeholder="Message"></textarea>
+
+                            </div>
+
+                        </div>
+
+                        <button type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+/* contactSectionStart */
+.contact-section {}
+
+.contact-section .contact-title {}
+
+.contact-section .contact-title h2 {}
+
+.contact-section .contact-title h3 {}
+
+.contact-section .form-row {
+    background: #ffffff;
+    box-shadow: 0 0 40px 10px #0000001a;
+    padding: 50px;
+}
+
+.contact-section .form-row .form-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-section .form-row .form-top .contact-box {
+    text-align: center;
+}
+
+.contact-section .form-row .form-top .contact-box span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #52d8bb;
+    line-height: 60px;
+    text-align: center;
+    color: #52d8bb;
+    transition: .4s;
+    font-size: 22px;
+}
+
+
+.contact-section .form-row .form-top .contact-box:nth-child(1) span {}
+
+.contact-section .form-row .form-top .contact-box:nth-child(2) span {
+    color: #3243e3;
+    border-color: #3243e3;
+}
+
+.contact-section .form-row .form-top .contact-box:nth-child(3) span {
+    color: #ec116c;
+    border-color: #ec116c;
+}
+
+.contact-section .form-row .form-top .contact-box:nth-child(1):hover span{
+      background:#52d8bb ;
+      color: #ffff;
+}
+
+.contact-section .form-row .form-top .contact-box:nth-child(2):hover span{
+     background: #3243e3;
+     color: #fff;
+}
+
+.contact-section .form-row .form-top .contact-box:nth-child(3):hover span{
+     background: #ec116d;
+     color: #fff;
+}
+
+.contact-section .form-row .form-top .contact-box ul {
+    margin-top: 30px;
+}
+
+.contact-section .form-row .form-top .contact-box ul li {
+    margin: 7px 0;
+    display: block;
+    color: #0000009e;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-section .form-row .form-top .contact-box ul li a {
+    display: block;
+    color: #0000009e;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-section .form-row .form-bottom {}
+
+.contact-section .form-row .form-bottom form {
+    text-align: center;
+}
+
+.contact-section .form-row .form-bottom form .form-wrapper {
+    display: flex;
+}
+
+.contact-section .form-row .form-bottom form .form-left {
+    width: 49%;
+    padding: 30px;
+    padding-right: 10px;
+}
+
+
+.contact-section .form-row .form-bottom form .form-left input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #3243e321;
+    outline: none;
+    color: #1a0c0c;
+    font-size: 17px;
+}
+
+
+.contact-section .form-row .form-bottom form .form-left input:focus {
+
+    outline: 1px solid #fcc747;
+}
+
+.contact-section .form-row .form-bottom form .form-left input[type="text"] {
+    display: block;
+    width: 100%;
+}
+
+.contact-section .form-row .form-bottom form .form-left input[type="email"] {
+    display: block;
+    width: 100%;
+}
+
+.contact-section .form-row .form-bottom form .form-left input[type="tel"] {
+    display: block;
+    width: 100%;
+}
+
+.contact-section .form-row .form-bottom form .form-right {
+    width: 49%;
+    padding: 30px;
+    padding-left: 10px;
+}
+
+.contact-section .form-row .form-bottom form .form-right textarea {
+    width: 100% !important;
+    border: 1px solid #3243e321;
+    outline: none;
+    color: #110d0d;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 500;
+    resize: none;
+}
+
+.contact-section .form-row .form-bottom form .form-right textarea:focus {
+
+    outline: 1px solid #fcc747;
+}
+
+
+.contact-section .form-row .form-bottom form button[type="submit"] {
+    border: none;
+    outline: none;
+    background: none;
+    background: #3243e3;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 15px 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+/* contactSectionEnd */
+
+
+
+

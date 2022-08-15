@@ -1,0 +1,378 @@
+@media all and (max-width: 1200px) {
+    .full-width {
+        max-width: 1170px;
+    }
+    .banner-section {
+        padding: 250px;
+    }
+    .banner-content h1 {
+        font-size: 38px;
+    }
+    .banner-content h5 {
+        font-size: 12px;
+    }
+    .btn-all {
+        padding: 11px 15px;
+        font-size: 10px;
+    }
+    .protfolio-box {
+        width: 31%;
+    }
+}
+@media all and (max-width: 1199px) {
+    .banner-section {
+        padding: 100px 0px;
+    }
+    .full-width {
+        width: 970px;
+    }
+    .banner-content h5::before {
+        left: 295px;
+    }
+    .banner-content h5::after {
+        right: 295px;
+    }
+}
+@media all and (max-width: 991px) {
+    .full-width {
+        width: 750px;
+    }
+    .manu-left {
+        width: 10%;
+    }
+    .manu-right {
+        width: 90%;
+    }
+    .manu-right {
+        position: relative;
+        display: flex;
+    }
+    .manu-right ul {
+        position: absolute;
+        top: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: 1s;
+        width: 100%;
+        background: #ec116c;
+        display: block;
+        text-align: right;
+    }
+    .manu-right ul li {
+        display: block;
+        position: relative;
+        margin: 0px;
+        padding-left: 14px;
+        text-align: justify;
+    }
+    .manu-right ul li a {
+        padding: 0px;
+        display: inline-block;
+        margin: 0px;
+        line-height: 20px;
+        padding: 6px 0px 6px 0;
+    }
+    .manu-right ul li ul {
+        position: absolute;
+        /* display: none; */
+        visibility: hidden;
+        opacity: 0;
+        /* transform: scaleY(0) !important;
+        transform-origin: top center;
+        transition: all 0.5s ease-in-out; */
+    }
+    .manu-right ul li:hover > ul {
+        position: relative;
+        display: block;
+        width: 100%;
+        top: 100%;
+        left: 0%;
+        opacity: 1;
+        visibility: visible;
+        /* transform: scaleY(1) !important; */
+    }
+    .manu-right ul li:hover > a {
+        color: #fcc747;
+    }
+    .manu-right ul li ul li a {
+        line-height: 20px;
+    }
+    .manu-right input[type="checkbox"] {
+        margin-left: auto;
+        display: block;
+        cursor: pointer;
+        margin-right: 33px;
+        position: relative;
+        appearance: none;
+    }
+    .manu-right input[type="checkbox"]:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+    }
+    .manu-right input[type="checkbox"]::after {
+        content: "\f039";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: 49px;
+    }
+    .banner-section {
+        padding: 84px 0px;
+        box-sizing: border-box;
+    }
+    .about-my-img {
+        width: 50%;
+    }
+    .about-ditles {
+        width: 50%;
+    }
+    .about-ditles h2 {
+        font-size: 22px;
+        line-height: 1.3;
+        padding: 6px 12px;
+    }
+    .about-ditles p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0px 0;
+        margin: 0;
+    }
+    .my-ditles {
+        margin-top: 5px;
+        margin-bottom: 33px;
+    }
+    .about-ditles h3 {
+        font-size: 15px;
+        line-height: 1.3;
+        padding: 15px 0 10px 0;
+    }
+    .protfolio-box {
+        width: 49%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .protfolio-contint {
+        top: 36%;
+    }
+    .skills-ditles {
+        width: 49%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .employment-content {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .education-content {
+        display: block;
+    }
+    .education-left {
+        width: 100%;
+        float: none;
+    }
+    .education-right {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+        float: none;
+        text-align: center;
+    }
+    .contact-section .form-row .form-bottom form .form-wrapper {
+        display: block;
+    }
+    .contact-section .form-row .form-bottom form .form-left {
+        width: 100%;
+    }
+    .contact-section .form-row .form-bottom form .form-right {
+        width: 90%;
+        padding: 22px;
+        padding-left: 29px;
+    }
+    .contact-section .form-row .form-bottom form .form-left input[type="text"] {
+        max-width: 100%;
+        padding: 10px 10px;
+        margin: 10px 0px;
+        box-sizing: border-box;
+    }
+    .contact-section .form-row .form-bottom form .form-left input[type="email"] {
+        max-width: 100%;
+        padding: 10px 10px;
+        margin: 10px 0px;
+        box-sizing: border-box;
+    }
+    .contact-section .form-row .form-bottom form .form-left input[type="tel"] {
+        max-width: 100%;
+        padding: 10px 10px;
+        margin: 10px 0px;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width: 987px) {
+    .banner-content h5::before {
+        left: 185px;
+    }
+    .banner-content h5::after {
+        right: 185px;
+    }
+}
+@media all and (max-width: 834px) {
+    .full-width {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .skills-ditles {
+        width: 100%;
+    }
+    .counter-list ul {
+        display: block;
+        justify-content: space-around;
+        /* text-align: center; */
+    }
+    .counter-list ul li {
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width: 766px) {
+    .full-width {
+        width: 100%;
+        padding: 0px 11px;
+        box-sizing: border-box;
+    }
+    .manu-right ul {
+        width: 100%;
+        right: 0;
+    }
+    .manu-right ul li a {
+        line-height: 11px;
+    }
+    .manu-right ul li ul li a {
+        line-height: 11px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+    }
+    .banner-content h5 {
+        font-size: 10px;
+    }
+    .banner-content h5::before {
+        left: 205px;
+        top: 6px;
+    }
+    .banner-content h5::after {
+        right: 205px;
+        top: 6px;
+    }
+    .protfolio-title h3 {
+        font-size: 19px;
+        margin: 0 0 35px 0;
+        width: 100%;
+    }
+    .about-my-img {
+        width: 100%;
+    }
+    .about-ditles {
+        width: 100%;
+    }
+    .education-item {
+        display: inherit;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .education-item-content {
+        width: 100%;
+    }
+    .education-paa {
+        width: 100%;
+    }
+    .contact-section .form-row .form-top {
+        display: inherit;
+        padding: 10px 0px;
+    }
+    .contact-section .form-row .form-top .contact-box {
+        margin-top: 23px;
+        box-sizing: border-box;
+    }
+    .contact-section .form-row .form-bottom form .form-left {
+        width: 100%;
+        padding: 0px 6px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .contact-section .form-row .form-bottom form .form-left input {
+        padding: 4px;
+    }
+    .contact-section .form-row .form-bottom form .form-right {
+        max-width: 100%;
+        padding: 10px 10px;
+        margin: 10px 0px;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width: 753px) {
+    .banner-content h5::after {
+        right: 197px;
+    }
+    .banner-content h5::before {
+        left: 197px;
+    }
+}
+@media all and (max-width: 733px) {
+    .banner-content h5::after {
+        right: 188px;
+    }
+    .banner-content h5::before {
+        left: 188px;
+    }
+}
+@media all and (max-width: 720px) {
+    .banner-content h5::after {
+        display: none;
+    }
+    .banner-content h5::before {
+        display: none;
+    }
+}
+
+@media all and (max-width: 453px) {
+    body {
+        overflow-x: hidden;
+    }
+    .full-width {
+        width: 100%;
+        padding: 0px 18px;
+        box-sizing: border-box;
+    }
+
+    .protfolio-box {
+        width: 100%;
+    }
+    .protfolio-contint {
+        top: 40%;
+    }
+    .contact-section .form-row .form-bottom form .form-left input {
+        padding: 4px;
+        font-size: 9px;
+    }
+}
+@media all and (max-width: 330px) {
+    .about-my-img {
+        width: 100%;
+    }
+    .about-ditles {
+        width: 100%;
+    }
+}
